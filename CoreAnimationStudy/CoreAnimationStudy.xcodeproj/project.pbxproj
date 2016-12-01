@@ -15,6 +15,7 @@
 		EB4908191DED2D6900F04CDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4908171DED2D6900F04CDA /* LaunchScreen.storyboard */; };
 		EB4908241DED2D6900F04CDA /* CoreAnimationStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4908231DED2D6900F04CDA /* CoreAnimationStudyTests.m */; };
 		EB49082F1DED2D6900F04CDA /* CoreAnimationStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB49082E1DED2D6900F04CDA /* CoreAnimationStudyUITests.m */; };
+		EB4908421DED51DC00F04CDA /* backGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB4908411DED51DC00F04CDA /* backGround.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EB49082A1DED2D6900F04CDA /* CoreAnimationStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB49082E1DED2D6900F04CDA /* CoreAnimationStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationStudyUITests.m; sourceTree = "<group>"; };
 		EB4908301DED2D6900F04CDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4908411DED51DC00F04CDA /* backGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backGround.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		EB4908081DED2D6900F04CDA /* CoreAnimationStudy */ = {
 			isa = PBXGroup;
 			children = (
+				EB4908431DED51E000F04CDA /* resource */,
 				EB49080C1DED2D6900F04CDA /* AppDelegate.h */,
 				EB49080D1DED2D6900F04CDA /* AppDelegate.m */,
 				EB49080F1DED2D6900F04CDA /* ViewController.h */,
@@ -138,6 +141,14 @@
 				EB4908301DED2D6900F04CDA /* Info.plist */,
 			);
 			path = CoreAnimationStudyUITests;
+			sourceTree = "<group>";
+		};
+		EB4908431DED51E000F04CDA /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				EB4908411DED51DC00F04CDA /* backGround.jpg */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 				TargetAttributes = {
 					EB4908051DED2D6900F04CDA = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C78VJKGV2J;
 						ProvisioningStyle = Automatic;
 					};
 					EB49081E1DED2D6900F04CDA = {
@@ -246,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4908421DED51DC00F04CDA /* backGround.jpg in Resources */,
 				EB4908191DED2D6900F04CDA /* LaunchScreen.storyboard in Resources */,
 				EB4908161DED2D6900F04CDA /* Assets.xcassets in Resources */,
 				EB4908141DED2D6900F04CDA /* Main.storyboard in Resources */,
@@ -424,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C78VJKGV2J;
 				INFOPLIST_FILE = CoreAnimationStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = feeyo.CoreAnimationStudy;
@@ -435,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C78VJKGV2J;
 				INFOPLIST_FILE = CoreAnimationStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = feeyo.CoreAnimationStudy;
